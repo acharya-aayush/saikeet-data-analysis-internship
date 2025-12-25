@@ -1,0 +1,35 @@
+# Ignore markdown notes
+*.md
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore processed data and outputs
+/data/processed/
+/data/raw/
+/outputs/
+
+# Ignore Python environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+ENV/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+~$*
